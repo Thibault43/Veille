@@ -1,10 +1,11 @@
 ---
 title: "ORM"
+lead: "Un ORM permet de simplifier l'accès à une base de données"
 date: 2021-04-12T09:15:59+01:00
 draft: false
 type: "plugins"
 logo: "akeneo"
-description: "L'ORM permet de ismplifier l'accès à une base de données"
+description: "L'ORM permet de simplifier l'accès à une base de données"
 
 ---
 
