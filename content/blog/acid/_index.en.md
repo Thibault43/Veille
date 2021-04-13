@@ -4,16 +4,15 @@ lead: "ACID est un acronyme désignant les propriétés de transactions
 de base de données"
 date: 2021-04-13T09:15:59+01:00
 draft: false
-type: "plugins"
-logo: "akeneo"
-
+contributors: ["Thibault Belledent"]
 ---
+<div style="text-align: left">
 
 ### Définition
 
-Le terme ACID est un moyen moyen mnémotechnique pour se souvenir
-de chacune des caractéristiques essentielles d'une base de
-données: Atomicity (atomicité), Consistency (cohérence),
+Le terme ACID est un moyen mnémotechnique pour se souvenir
+de chacune des caractéristiques essentielles d'une transaction en
+base de données : Atomicity (atomicité), Consistency (cohérence),
 Isolation, Durability (durabilité).
 
 Le terme de transaction se rapporte aux opérations qui
@@ -22,7 +21,11 @@ Par exemple une transaction peut désigner un virement bancaire
 provoquant le débit du compte de l’émetteur et le crédit du compte
 du bénéficiaire est une transaction.
 
+</div>
+
 <img style="max-height: 300px" src="https://blog.cellenza.com/wp-content/uploads/2013/11/acid1.jpg">
+
+<div style="text-align: left">
 
 ### Les termes
 
@@ -44,15 +47,31 @@ du bénéficiaire est une transaction.
   Le principe d'isolation renvoit au fait que la lecture et
   l'écriture d'une transaction n'est pas affectée par d'autres
   transactions car chacune des transaction est isolée des autres.
-  On parle de transactions optimistes et péssimistes.
-  Dans le cas des transactions optimistes, on part du principe
-  que la transaction a réussi
 
-### Les limites liées à un ORM
+### - Durabilité
 
-- L'utilisation d'un ORM peut alourdir un projet de façon
-  conséquente.
+  La durabilité des transaction garantit que celles-ci perdurent.
+  Si une transaction est interrompue inopinément dans le cas ou
+  un problème survient empêchant sa validation complète,
+  la transaction en question puisse être correctement terminée
+  lors de la disponibilité du système.
 
-- Plus lents que les requêtes SQL basiques.
+### - Commandes SQL
 
-- Configuration parfois fastidieuse.
+```
+-- Début de notre transaction
+BEGIN TRANSACTION
+
+-- nos instructions Sql
+-- Par exemple une requête UPDATE et/ou DELETE
+
+-- validation de nos instructions
+COMMIT TRANSACTION
+
+-- annulation de nos instructions
+ROLLBACK TRANSACTION
+
+-- on utilise soit un commit soit un rollback en fin de transaction
+```
+
+</div>

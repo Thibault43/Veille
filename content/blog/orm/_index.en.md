@@ -3,14 +3,19 @@ title: "ORM"
 lead: "Un ORM permet de simplifier l'accès à une base de données"
 date: 2021-04-12T09:15:59+01:00
 draft: false
-type: "plugins"
-logo: "akeneo"
 description: "L'ORM permet de simplifier l'accès à une base de données"
+contributors: ["Thibault Belledent"]
+
 
 ---
+<div style="text-align: left">
 
 ### Définition
+</div>
+
 <img style="max-height: 225px" src="https://www.developpez.net/forums/attachments/p474863d1/a/a/a"/>
+
+<div style="text-align: left">
 
 L'ORM pour Object-Relational Mapping désigne une technique
 de programmation visant a simplifier l'accès à une base de données.
@@ -45,3 +50,5 @@ s'occupe de faire les correspondances.
 - Plus lents que les requêtes SQL basiques.
 
 - Configuration parfois fastidieuse.
+
+</div>
