@@ -28,8 +28,6 @@ Un cache hardware est une mémoire intermédiaire rapide qui réduit les temps d
 
 Un cache software peut dépasser la taille de la ressource devant laquelle il se trouve.
 
-Nous allons nous intêresser au cache software.
-
 ### CDN
 CDN, pour `Content Delivery Networks`, est une plateforme de serveurs permettant de réduire le temps de chargement des
 pages Web.
