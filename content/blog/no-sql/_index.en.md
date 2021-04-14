@@ -14,8 +14,8 @@ Développé à l'origine pour gérer du Big data ou des données cloud,
 le NoSQL désigne les bases de données qui ne repose pas sur
 l'architecture relationnelle.
 
-Le NoSQL permet de gommer les limites des base de données
-relationnelles, en effet les base de données NoSQL visent
+Le NoSQL permet de gommer les limites des bases de données
+relationnelles, en effet les bases de données NoSQL visent
 à enrichir les systèmes traditionnels c'est un complément
 utile des bases de données SQL relationnelles.
 
@@ -36,12 +36,12 @@ du bénéficiaire est une transaction.
 
 Les bases de données NoSQL sont apparues pour corriger les
 problèmes de performance liés aux bases de données relationnelles.
-En effet, le traitement de gros volume de données peut entrainer de
+En effet, le traitement de gros volumes de données peut entrainer de
 lourdes pertes de performances.
 
 Le NoSQL constitue une alternative face aux restrictions
 et problèmes liés aux bases de données relationnelles.
-Les base de données NoSQL ont une meilleure scalabilité
+Les bases de données NoSQL ont une meilleure scalabilité
 car elles permettent d'avoir une installation distribuée sur plusieurs
 serveurs. Le NoSQL prends en compte la dimension des serveurs Cloud,
 la montée en charge s'effectue simplement par l'ajout de serveurs
@@ -54,10 +54,9 @@ supplémentaires.
 Dans ce type de base de données la valeur est associée à une clé
 qui peut être un document, un objet complexe, ou encore une chaine de
 caractères, la valeur est une donnée non structurée. Elle est
-principalement faite pour pour le stockage temporaire.
+principalement faite pour le stockage temporaire.
 
-Ces systèmes sont utilisés dans la gestion de panier d'achat,
-de la collecte d'évènements
+Ces systèmes sont utilisés dans la gestion de panier d'achat mais encore dans la collecte d'évènements.
 </div>
 
 <img style="max-height:150px" src="https://itecsoftware.com/wp-content/uploads/2010/08/high-speed-redis-cache-300x200.jpg"/>
@@ -68,12 +67,11 @@ de la collecte d'évènements
 
 ### - Système en colonnes
 
-Ce sytème de base de données stocke des données dans des tables
-qui a l'intérieur contiennent des "colonnes" à l'inverse des
-des base de données relationnelles où les données sont par rangées.
+Ce système de base de données stocke des données dans des tables
+qui à l'intérieur contiennent des "colonnes" à l'inverse
+des bases de données relationnelles où les données sont par rangées.
 
-Ce type de base offre de hautes performances lorsqu'il s'agit de
-de traitements et de parcours de gros volume de données.
+Ce type de base offre de hautes performances lorsqu'il s'agit de traitements et de parcours de gros volume de données.
 
 Ce système est utilisé dans les applications analytiques de traitements
 de données ainsi que les applications Web à grande échelle.
@@ -88,7 +86,7 @@ de données ainsi que les applications Web à grande échelle.
 
 ### - Système orientés document
 
-Les bases de données orientées documents utilise des structures de
+Les bases de données orientées documents utilisent des structures de
 données complexes. Les documents ont habituellement un format particulier
 tels que le JSON, BSON, XML et d'autres.
 
@@ -100,7 +98,7 @@ de gestion de contenu tels que les blogs ou encore les plateformes vidéos,
 <img style="max-height:125px" src="https://www.lemagit.fr/visuals/LeMagIT/hero_article/MongoDB_searchsitetablet_520X173.jpg"/>
 
 <div style="text-align: left">
-MongoDB est sans doute une des base de données NoSQL
+MongoDB est une base de données NoSQL
 </div>
 <img style="max-height:200px" src="http://allvectorlogo.com/img/2016/04/ravendb-logo.png"/>
 
@@ -108,8 +106,8 @@ MongoDB est sans doute une des base de données NoSQL
 
 ### - Système en graphes
 
-Les base de données en graphes se prête particulièrement bien pour certains
-types de données. Basé sur le système de de noeuds et d'arêtes
+Les bases de données en graphes se prête particulièrement bien pour certains
+types de données. Basé sur le système de noeuds et d'arêtes
 [cf théorie des graphes](https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_graphes).
 Les bases de données graphiques sont très utiles lorsque les
 informations sont fortement interconnectées et offrent des performances

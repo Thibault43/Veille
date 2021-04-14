@@ -17,29 +17,29 @@ contributors: ["Thibault Belledent"]
 
 <div style="text-align: left">
 
-L'ORM pour Object-Relational Mapping désigne une technique
-de programmation visant a simplifier l'accès à une base de données.
+ORM pour `Object-Relational Mapping` désigne une technique
+de programmation visant à simplifier l'accès à une base de données.
 
 Un ORM est un ensemble de classes qui permet de manipuler les tables
 d’une base de données relationnelle.
 
 Il se place en interface entre un programme applicatif et
 une base de données relationnelle pour simuler une base de données
-orientée objet. Plus encore l'ORM s'occupe de définir des correspondances
+orientée objet. Plus encore, un ORM s'occupe de définir des correspondances
 entre les schémas de la base de données et les classes du programme
 applicatif. Par exemple dans Symfony c'est l'ORM [Doctrine](https://symfony.com/doc/current/doctrine.html)
 s'occupe de faire les correspondances.
 
 ### Les avantages d'utiliser un ORM
 
-- Permet de préserver une homogeneité dans son code, en effet les données
+- Permet de préserver une homogénéité dans son code, en effet les données
   relationnelles sont manipulés à l'aide de classes, tout est objet
-  pas besoin de faire des requetes sql mis à part pour des besoins
+  pas besoin de faire des requêtes sql mis à part pour des besoins
   très spécifiques. Car celui-ci se charge de transformer
   les requêtes pour les rendre compatibles avec la base de données.
 
 - Permet un gain de temps dans le développement grâce au processus
-  d'automatisation, l'ORM facilite les intéractions avec la base de
+  d'automatisation, un ORM facilite les interactions avec la base de
   données.
 
 ### Les limites liées à un ORM
