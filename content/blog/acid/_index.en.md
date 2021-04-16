@@ -2,7 +2,7 @@
 title: "ACID"
 lead: "ACID est un acronyme désignant les propriétés de transactions
 de base de données"
-date: 2021-04-13T09:15:59+01:00
+date: 2021-04-14T09:15:59+01:00
 draft: false
 contributors: ["Thibault Belledent"]
 ---
@@ -10,7 +10,7 @@ contributors: ["Thibault Belledent"]
 
 ### Définition
 
-Le terme ACID est un moyen mnémotechnique pour se souvenir
+Le terme ACID est un moyen mémotechnique pour se souvenir
 de chacune des caractéristiques essentielles d'une transaction en
 base de données : Atomicity (atomicité), Consistency (cohérence),
 Isolation, Durability (durabilité).
@@ -34,8 +34,8 @@ du bénéficiaire est une transaction.
   son entièreté ou pas du tout. En effet la transaction ne
   doit jamais s'éxécuter partiellement car ceci peut avoir
   de lourdes conséquences. Dans le processus de création,
-  des étapes sont souvent dépendantes d'autres, ce qui peut
-  provoquer des actions erronées bien loin de ce l'on attends.
+  des étapes sont souvent dépendantes des autres, ce qui peut
+  provoquer des actions erronées bien loin de ce l'on attend.
 
 ### - Cohérence
   La cohérence dans les transactions signifie qu'elles doivent
@@ -44,14 +44,14 @@ du bénéficiaire est une transaction.
 
 ### - Isolation
 
-  Le principe d'isolation renvoit au fait que la lecture et
+  Le principe d'isolation renvoie au fait que la lecture et
   l'écriture d'une transaction n'est pas affectée par d'autres
-  transactions car chacune des transaction est isolée des autres.
+  transactions car chacune des transactions est isolée des autres.
 
 ### - Durabilité
 
-  La durabilité des transaction garantit que celles-ci perdurent.
-  Si une transaction est interrompue inopinément dans le cas ou
+  La durabilité des transactions garantit que celles-ci perdurent.
+  Si une transaction est interrompue de manière inattendue dans le cas ou
   un problème survient empêchant sa validation complète,
   la transaction en question puisse être correctement terminée
   lors de la disponibilité du système.
