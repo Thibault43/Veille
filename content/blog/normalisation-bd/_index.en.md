@@ -2,7 +2,7 @@
 title: "Normalisation d'une base de données"
 lead: "La normalisation d'une base de données est un processus
 qui permet d'éliminer les informations redondantes"
-date: 2021-04-13T09:15:59+01:00
+date: 2021-04-15T09:15:59+01:00
 draft: false
 contributors: ["Thibault Belledent"]
 ---
@@ -49,8 +49,6 @@ très lentes par la présence de nombreuses clés étrangères entre les
 différentes tables.
 
 ### - Les formes de normalisation
-</div>
-
 
 |Forme|Implication|
 |--- |--- |
@@ -67,6 +65,9 @@ La normalisation est pertinente que si elle permet vraiment de
 décomposer des relations complexes en des relations plus simples,
 en outre si elle offre réellement une meilleure organisation des données
 car parfois elle peut amener à une structure inutilement complexe.
+
+</div>
+
 
 
 

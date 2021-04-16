@@ -2,7 +2,7 @@
 title: "ACID"
 lead: "ACID est un acronyme désignant les propriétés de transactions
 de base de données"
-date: 2021-04-13T09:15:59+01:00
+date: 2021-04-14T09:15:59+01:00
 draft: false
 contributors: ["Thibault Belledent"]
 ---
